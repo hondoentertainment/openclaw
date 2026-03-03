@@ -146,7 +146,7 @@ Save to `~/.openclaw/openclaw.json` and you can DM the bot from that number.
       video: {
         enabled: true,
         maxBytes: 52428800,
-        models: [{ provider: "google", model: "gemini-3-flash-preview" }],
+        models: [{ provider: "google", model: "gemini-3.1-flash-preview" }],
       },
     },
   },

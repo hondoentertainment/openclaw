@@ -27,8 +27,8 @@ const KILOCODE_MODEL_IDS = [
   "minimax/minimax-m2.5:free",
   "anthropic/claude-sonnet-4.5",
   "openai/gpt-5.2",
-  "google/gemini-3-pro-preview",
-  "google/gemini-3-flash-preview",
+  "google/gemini-3.1-pro-preview",
+  "google/gemini-3.1-flash-preview",
   "x-ai/grok-code-fast-1",
   "moonshotai/kimi-k2.5",
 ];

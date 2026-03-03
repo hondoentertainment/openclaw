@@ -259,7 +259,7 @@ describe("provider paging", () => {
     const compactData = createModelsProviderData({
       anthropic: ["claude-sonnet-4-5"],
       openai: ["gpt-4o"],
-      google: ["gemini-3-pro"],
+      google: ["gemini-3.1-pro"],
     });
     const compactPage = getDiscordModelPickerProviderPage({
       data: compactData,

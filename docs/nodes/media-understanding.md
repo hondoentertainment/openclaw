@@ -94,7 +94,7 @@ Each `models[]` entry can be **provider** or **CLI**:
   command: "gemini",
   args: [
     "-m",
-    "gemini-3-flash",
+    "gemini-3.1-flash",
     "--allowed-tools",
     "read_file",
     "Read the media at {{MediaPath}} and describe it in <= {{MaxChars}} characters.",
@@ -229,7 +229,7 @@ When `mode: "all"`, outputs are labeled `[Image 1/2]`, `[Audio 2/2]`, etc.
         { provider: "openai", model: "gpt-5.2", capabilities: ["image"] },
         {
           provider: "google",
-          model: "gemini-3-flash-preview",
+          model: "gemini-3.1-flash-preview",
           capabilities: ["image", "audio", "video"],
         },
         {
@@ -237,7 +237,7 @@ When `mode: "all"`, outputs are labeled `[Image 1/2]`, `[Audio 2/2]`, etc.
           command: "gemini",
           args: [
             "-m",
-            "gemini-3-flash",
+            "gemini-3.1-flash",
             "--allowed-tools",
             "read_file",
             "Read the media at {{MediaPath}} and describe it in <= {{MaxChars}} characters.",
@@ -277,13 +277,13 @@ When `mode: "all"`, outputs are labeled `[Image 1/2]`, `[Audio 2/2]`, etc.
         enabled: true,
         maxChars: 500,
         models: [
-          { provider: "google", model: "gemini-3-flash-preview" },
+          { provider: "google", model: "gemini-3.1-flash-preview" },
           {
             type: "cli",
             command: "gemini",
             args: [
               "-m",
-              "gemini-3-flash",
+              "gemini-3.1-flash",
               "--allowed-tools",
               "read_file",
               "Read the media at {{MediaPath}} and describe it in <= {{MaxChars}} characters.",
@@ -314,7 +314,7 @@ When `mode: "all"`, outputs are labeled `[Image 1/2]`, `[Audio 2/2]`, etc.
             command: "gemini",
             args: [
               "-m",
-              "gemini-3-flash",
+              "gemini-3.1-flash",
               "--allowed-tools",
               "read_file",
               "Read the media at {{MediaPath}} and describe it in <= {{MaxChars}} characters.",
@@ -337,7 +337,7 @@ When `mode: "all"`, outputs are labeled `[Image 1/2]`, `[Audio 2/2]`, etc.
         models: [
           {
             provider: "google",
-            model: "gemini-3-pro-preview",
+            model: "gemini-3.1-pro-preview",
             capabilities: ["image", "video", "audio"],
           },
         ],
@@ -346,7 +346,7 @@ When `mode: "all"`, outputs are labeled `[Image 1/2]`, `[Audio 2/2]`, etc.
         models: [
           {
             provider: "google",
-            model: "gemini-3-pro-preview",
+            model: "gemini-3.1-pro-preview",
             capabilities: ["image", "video", "audio"],
           },
         ],
@@ -355,7 +355,7 @@ When `mode: "all"`, outputs are labeled `[Image 1/2]`, `[Audio 2/2]`, etc.
         models: [
           {
             provider: "google",
-            model: "gemini-3-pro-preview",
+            model: "gemini-3.1-pro-preview",
             capabilities: ["image", "video", "audio"],
           },
         ],

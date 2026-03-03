@@ -50,8 +50,8 @@ The built-in Kilo Gateway catalog currently surfaces these model refs:
 - `kilocode/minimax/minimax-m2.5:free`
 - `kilocode/anthropic/claude-sonnet-4.5`
 - `kilocode/openai/gpt-5.2`
-- `kilocode/google/gemini-3-pro-preview`
-- `kilocode/google/gemini-3-flash-preview`
+- `kilocode/google/gemini-3.1-pro-preview`
+- `kilocode/google/gemini-3.1-flash-preview`
 - `kilocode/x-ai/grok-code-fast-1`
 - `kilocode/moonshotai/kimi-k2.5`
 
