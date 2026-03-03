@@ -20,8 +20,8 @@ const DEFAULT_MODEL_IDS = [
   "claude-opus-4.5",
   "claude-sonnet-4.5",
   "claude-haiku-4.5",
-  "gemini-3-pro",
-  "gemini-3-flash",
+  "gemini-3.1-pro",
+  "gemini-3.1-flash",
   "grok-code-fast-1",
 ] as const;
 

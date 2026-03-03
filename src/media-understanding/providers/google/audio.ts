@@ -2,7 +2,7 @@ import type { AudioTranscriptionRequest, AudioTranscriptionResult } from "../../
 import { generateGeminiInlineDataText } from "./inline-data.js";
 
 export const DEFAULT_GOOGLE_AUDIO_BASE_URL = "https://generativelanguage.googleapis.com/v1beta";
-const DEFAULT_GOOGLE_AUDIO_MODEL = "gemini-3-flash-preview";
+const DEFAULT_GOOGLE_AUDIO_MODEL = "gemini-3.1-flash-preview";
 const DEFAULT_GOOGLE_AUDIO_PROMPT = "Transcribe the audio.";
 
 export async function transcribeGeminiAudio(

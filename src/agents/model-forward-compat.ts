@@ -22,8 +22,8 @@ const ZAI_GLM5_TEMPLATE_MODEL_IDS = ["glm-4.7"] as const;
 // don't get "Unknown model" errors when Google releases a new minor version.
 const GEMINI_3_1_PRO_PREFIX = "gemini-3.1-pro";
 const GEMINI_3_1_FLASH_PREFIX = "gemini-3.1-flash";
-const GEMINI_3_1_PRO_TEMPLATE_IDS = ["gemini-3-pro-preview"] as const;
-const GEMINI_3_1_FLASH_TEMPLATE_IDS = ["gemini-3-flash-preview"] as const;
+const GEMINI_3_1_PRO_TEMPLATE_IDS = ["gemini-3.1-pro-preview", "gemini-3-pro-preview"] as const;
+const GEMINI_3_1_FLASH_TEMPLATE_IDS = ["gemini-3.1-flash-preview", "gemini-3-flash-preview"] as const;
 
 function cloneFirstTemplateModel(params: {
   normalizedProvider: string;

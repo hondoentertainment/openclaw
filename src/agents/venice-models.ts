@@ -245,8 +245,8 @@ export const VENICE_MODEL_CATALOG = [
 
   // Google (via Venice)
   {
-    id: "gemini-3-pro-preview",
-    name: "Gemini 3 Pro (via Venice)",
+    id: "gemini-3.1-pro-preview",
+    name: "Gemini 3.1 Pro (via Venice)",
     reasoning: true,
     input: ["text", "image"],
     contextWindow: 202752,
@@ -254,8 +254,8 @@ export const VENICE_MODEL_CATALOG = [
     privacy: "anonymized",
   },
   {
-    id: "gemini-3-flash-preview",
-    name: "Gemini 3 Flash (via Venice)",
+    id: "gemini-3.1-flash-preview",
+    name: "Gemini 3.1 Flash (via Venice)",
     reasoning: true,
     input: ["text", "image"],
     contextWindow: 262144,

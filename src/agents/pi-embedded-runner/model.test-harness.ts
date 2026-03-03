@@ -48,8 +48,8 @@ export function buildOpenAICodexForwardCompatExpectation(
 }
 
 export const GOOGLE_GEMINI_CLI_PRO_TEMPLATE_MODEL = {
-  id: "gemini-3-pro-preview",
-  name: "Gemini 3 Pro Preview (Cloud Code Assist)",
+  id: "gemini-3.1-pro-preview",
+  name: "Gemini 3.1 Pro Preview (Cloud Code Assist)",
   provider: "google-gemini-cli",
   api: "google-gemini-cli",
   baseUrl: "https://cloudcode-pa.googleapis.com",
@@ -61,8 +61,8 @@ export const GOOGLE_GEMINI_CLI_PRO_TEMPLATE_MODEL = {
 };
 
 export const GOOGLE_GEMINI_CLI_FLASH_TEMPLATE_MODEL = {
-  id: "gemini-3-flash-preview",
-  name: "Gemini 3 Flash Preview (Cloud Code Assist)",
+  id: "gemini-3.1-flash-preview",
+  name: "Gemini 3.1 Flash Preview (Cloud Code Assist)",
   provider: "google-gemini-cli",
   api: "google-gemini-cli",
   baseUrl: "https://cloudcode-pa.googleapis.com",
@@ -76,7 +76,7 @@ export const GOOGLE_GEMINI_CLI_FLASH_TEMPLATE_MODEL = {
 export function mockGoogleGeminiCliProTemplateModel(): void {
   mockDiscoveredModel({
     provider: "google-gemini-cli",
-    modelId: "gemini-3-pro-preview",
+    modelId: "gemini-3.1-pro-preview",
     templateModel: GOOGLE_GEMINI_CLI_PRO_TEMPLATE_MODEL,
   });
 }
@@ -84,7 +84,7 @@ export function mockGoogleGeminiCliProTemplateModel(): void {
 export function mockGoogleGeminiCliFlashTemplateModel(): void {
   mockDiscoveredModel({
     provider: "google-gemini-cli",
-    modelId: "gemini-3-flash-preview",
+    modelId: "gemini-3.1-flash-preview",
     templateModel: GOOGLE_GEMINI_CLI_FLASH_TEMPLATE_MODEL,
   });
 }
